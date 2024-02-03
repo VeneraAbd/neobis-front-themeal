@@ -40,3 +40,6 @@
     cursor: pointer;
 }
 
+li{
+    list-style-type: none;
+}

@@ -5,7 +5,7 @@ import axios from 'axios';
 
 const MealOfTheDay = () => {
   const [ randomMeal, setRandomMeal ] = useState([])
-console.log(randomMeal, "mmm")
+    console.log(randomMeal, "mmm")
   useEffect(() => {
     const fetchData = async () => {
       try {
