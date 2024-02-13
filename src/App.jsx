@@ -10,7 +10,7 @@ function App() {
       <Routes >
         <Route path="/" element={<Layout/>}>
           <Route index element={<Meal/>}/>
-          <Route path="dishdetails" element={<DishDetails/>}/>
+          <Route path="dishdetails/:mealId/" element={<DishDetails/>}/>
           <Route path="*" element={<NotFoundPage/>}/>
         <Route/>
         </Route>
